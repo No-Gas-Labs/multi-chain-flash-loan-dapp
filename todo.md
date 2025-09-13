@@ -10,6 +10,7 @@
 - [x] Fix dependency conflicts with `npm install --legacy-peer-deps --force`
   - [x] Resolve issue with `@suiet/sui-kit` package by replacing it with `@scallop-io/sui-kit`
   - [x] Resolve issue with `@tonconnect/ui-react-native` package by replacing it with `@tonconnect/ui-react`
+- [x] Create GitHub repository and push code
 - [ ] Ensure all required global packages are installed
 - [ ] Verify environment configuration
 
