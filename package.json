@@ -1,0 +1,31 @@
+{
+  "name": "flash-loan-dapp",
+  "version": "1.0.0-Δ1",
+  "description": "Multi-chain flash loan DApp - Δ1 Core Foundation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently &quot;npm run backend&quot; &quot;npm run frontend&quot;",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "test": "npm run test:frontend && npm run test:backend && npm run test:contracts",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "test:contracts": "npm run test:ton && npm run test:eos && npm run test:sui",
+    "test:ton": "cd contracts/ton && npm test",
+    "test:eos": "cd contracts/eos && npm test",
+    "test:sui": "cd contracts/sui && npm test",
+    "deploy:testnet": "npm run deploy:ton && npm run deploy:eos && npm run deploy:sui",
+    "deploy:ton": "node contracts/ton/deploy/deploy.js",
+    "deploy:eos": "node contracts/eos/deploy/deploy.js",
+    "deploy:sui": "node contracts/sui/deploy/deploy.js"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "lerna": "^6.4.1"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "contracts/*"
+  ]
+}
