@@ -28,4 +28,4 @@
 - [x] Create comprehensive README.md
 - [x] Create detailed installation guide (INSTALLATION.md)
 - [x] Create developer guide (docs/developer/guide.md)
-- [ ] Provide troubleshooting steps
+- [x] Provide troubleshooting guide (TROUBLESHOOTING.md)
