@@ -25,6 +25,7 @@
 - [ ] Verify delta tracking (Δ1–Δ18) implementation
 
 ## Documentation & User Guide
-- [ ] Create comprehensive user guide
-- [ ] Document deployment process
+- [x] Create comprehensive README.md
+- [x] Create detailed installation guide (INSTALLATION.md)
+- [x] Create developer guide (docs/developer/guide.md)
 - [ ] Provide troubleshooting steps
