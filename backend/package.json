@@ -21,7 +21,7 @@
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "jsonwebtoken": "^9.0.2",
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^3.0.2",
     "rate-limiter-flexible": "^4.0.0",
     "winston": "^3.11.0",
     "@ton/ton": "^13.8.1",
