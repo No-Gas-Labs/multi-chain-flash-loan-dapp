@@ -14,7 +14,7 @@
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6",
+    "react-native": "0.81.4",
     "react-native-web": "~0.19.6",
     "@tonconnect/ui-react": "^2.3.0",
     "@suiet/wallet-kit": "^0.2.15",
